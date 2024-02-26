@@ -28,7 +28,7 @@ This is a simple Rock Paper Scissors game built using React. It allows users to 
 
 
 ## Demo
-You can try out the game [here](link_to_your_demo).
+You can try out the game [here](https://shrabya35.github.io/Rock-paper-scissors/).
 
 ## ⭐️ Thank You 
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
