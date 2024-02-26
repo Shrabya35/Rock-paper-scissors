@@ -1,0 +1,101 @@
+$primary-color: peru;
+$secondary-color: #f40404;
+$highlight-color: #f9f036;
+$button-background: #43778b;
+$button-text-color: #faf9ee;
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: $primary-color;
+    .title {
+        margin-top: 50px;
+        color: $secondary-color;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .span1 {
+            color: black;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .span2 {
+            color: $highlight-color;
+        }
+    }
+    .game {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        .side {
+            gap: 2rem;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .player-title {
+                font-size: 2rem;
+                color: wheat;
+                font-weight: 900;
+            }
+            .player-image {
+                display: flex;
+                gap: 1rem; // Adjust as needed
+                justify-content: center; // Center-align the images
+            }
+            .player-text {
+                font-size: 1.25rem;
+                font-weight: 600;
+                color: wheat;
+            }
+        }
+    }
+}
+
+.item {
+    cursor: pointer;
+}
+
+.loader {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid $primary-color;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    animation: spin 1s linear infinite;
+    margin: 0 auto;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.button {
+    #resetButton {
+        padding: 1rem 2rem;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        border-radius: 5rem;
+        background: $button-background;
+        color: $button-text-color;
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+}
+
+@media (max-width: 770px) {
+    .game {
+        flex-direction: column;
+        gap: 4rem;
+    }
+}
