@@ -33,7 +33,7 @@ You can try out the game [here](https://shrabya35.github.io/Rock-paper-scissors/
 ## ⭐️ Thank You 
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
 
-If you find this project useful or interesting, please consider giving it a star! It helps maintainers know which projects are valued by the community and provides motivation to continue improving.
+If you find this project useful or interesting, please consider giving it a star! 
 
 Thank you for your support! 🚀
 
